@@ -2,6 +2,7 @@ require 'knock'
 require 'knock/authenticable'
 require 'grape/knock/forbidden_error'
 require 'grape/knock/methods'
+require 'jwt'
 
 module Grape
   module Knock
